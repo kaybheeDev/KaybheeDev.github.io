@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first webpage</title>
+    <style>
+    ul {
+        color:rgb(177, 63, 63);
+    }
+    ol {
+        color: rgb(57, 57, 143);
+     }
+    @media(min-width:500px) {
+        body{background-color : black;
+        }    
+    }
+    @media(max-width: 450px){
+        body{
+            background-color:red;
+        }
+    }
+    button{
+        font-size: 25px;
+    width:200px ;
+    color:brown;
+    }
+    button:hover{
+        background-color: aqua;
+       
+    }
+    #container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+ 
+    
+
+    #container div{
+        background-color: aqua;
+        font-size: 20px;
+        margin: 20px;
+        padding: 50px ;
+        width: 200px;
+    }
+</style>
+</head>
+<body>
+    <ul>
+        <li>Mammals
+    <ol>
+        <li>Racoons
+            <li>Gorillas
+     </ol>
+        <li>Reptiles
+            <ol>
+                <li>Iguanas
+                <li>Cobras
+             </ol>                           
+                <li>Birds
+                <ol>
+                    <li>Ostriches
+                        <li>Ravens
+                </ol>    
+            </ul>
+            <a href = "https://google.com" target="_blank"><button>Click here</button></a><br><br>
+            <img width = "100" height = "100" src="videos/kaky.png">
+
+        <div id="container">
+            <div>1.an electrical engr student</div>
+            <div>2.mechanical engr student</div>
+            <div>3.chemical engr student</div>
+            <div>4.petro-chemical engr student</div>
+            <div>5.robotics engr student</div>
+            <div>6. civil engr student</div>
+            <div>7.computer engr student</div>
+            <div>9.software engr student</div>
+            <div>10.production engr student</div>
+            <div>11.agricultural engr student</div>
+    </div>  
+</body>
+</html>
